@@ -1,4 +1,3 @@
-
 Read this
 ---------
 This project has not been updated for a while (since 2004), so, I decided to put it on github. If you are using wall4php (chances are low), or if you are willing to contribute (chances are even lower), feel free to fork and go nuts with pull requests afterwards. Original site along with downloads can be found at [wall.laacz.lv](http://wall.laacz.lv/).
@@ -23,7 +22,7 @@ Well, Wall takes these questions away from you. It should be mentioned, that dat
 
 Now, WALL is an easy way to solve your problems. In a case above you now should write this way: `<wall:a href="link">this is <wall:b>bold</wall:b> and this is not</wall:a>`. WALL library takes it from here and shows XHTML to those devices, which understand it, WML to other. And even more - if a device (according to WURFL) does not support bodling text within anchors, it removes it (generated WML code is without b elements).
 
-Just remember. This library is made for wireless devices and not browsers like Firefox or Internet Explorer. Forget it. If you want to create rich pages wich make use of features which PC browsers provide, do it the right way - go nuts with XHTML 1.0, Flash, JavaScript, SVG and other sexy and rich things. IIf you want to create webpages which are optimized for wireless devices with limited capabilities and small screens, check out WALL. Why focusing for mobile devices? Because, if you want to create something that universal, markup would become too complicated.
+Just remember. This library is made for wireless devices and not browsers like Firefox or Internet Explorer. Forget it. If you want to create rich pages which make use of features which PC browsers provide, do it the right way - go nuts with XHTML 1.0, Flash, JavaScript, SVG and other sexy and rich things. If you want to create webpages which are optimized for wireless devices with limited capabilities and small screens, check out WALL. Why focusing for mobile devices? Because, if you want to create something that universal, markup would become too complicated.
 
 Prerequisites
 -------------
